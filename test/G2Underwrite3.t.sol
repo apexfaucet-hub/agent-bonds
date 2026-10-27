@@ -2,7 +2,7 @@
 pragma solidity 0.8.28;
 
 import {Test} from "forge-std/Test.sol";
-import {ERC20} from "@openzeppel../src/token/ERC20/ERC20.sol";
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {G2Jobs} from "../src/G2Jobs.sol";
 import {IG2Jobs} from "../src/G2Bond.sol";
 import {G2Underwrite3} from "../src/G2Underwrite3.sol";
